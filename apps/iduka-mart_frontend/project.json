@@ -2,7 +2,7 @@
   "name": "iduka-mart_frontend",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "app",
+  "prefix": "iduka-mart",
   "sourceRoot": "apps/iduka-mart_frontend/src",
   "tags": [],
   "targets": {
