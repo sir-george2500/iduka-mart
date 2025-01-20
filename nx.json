@@ -14,7 +14,10 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudId": "678d465aa33cc4347c84dee3",
+  "nxCloudId": "678d4ed1d5bb8174177c382f",
+  "projects": {
+    "iduka-mart_frontend": "apps/iduka-mart_frontend"
+  },
   "targetDefaults": {
     "@angular-devkit/build-angular:application": {
       "cache": true,
@@ -50,6 +53,10 @@
       "linter": "eslint",
       "style": "scss",
       "unitTestRunner": "jest"
+    },
+    "@nx/angular:component": {
+      "style": "scss"
     }
-  }
+  },
+  "defaultBase": "main"
 }
